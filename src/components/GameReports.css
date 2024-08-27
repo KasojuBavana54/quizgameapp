@@ -1,0 +1,47 @@
+.game-reports {
+  padding: 20px;
+}
+
+.loader {
+  font-size: 24px;
+  text-align: center;
+}
+
+.error-view {
+  color: red;
+  text-align: center;
+  padding: 20px;
+}
+
+.results-summary {
+  margin-bottom: 20px;
+}
+
+.questions-report {
+  margin-top: 20px;
+}
+
+.question-report {
+  margin-bottom: 20px;
+}
+
+.option {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.option.selected {
+  background-color: #e0e0e0;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
+
+.unattempted {
+  color: gray;
+}

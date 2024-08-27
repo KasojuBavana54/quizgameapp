@@ -1,0 +1,45 @@
+.quiz-game {
+  text-align: center;
+  padding: 20px;
+}
+
+.loader {
+  font-size: 24px;
+  margin: 20px;
+}
+
+.error-view {
+  color: red;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.option {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.option.selected {
+  background-color: #e0e0e0;
+}
+
+.timer {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.next-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.next-button:disabled {
+  background-color: #ccc;
+}
